@@ -287,6 +287,39 @@
             </objects>
             <point key="canvasLocation" x="3898" y="1046"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="xaQ-0p-yWu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController11" id="FgZ-46-Ptw" customClass="ViewController11" customModule="NotificationExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3HD-q7-Bvb"/>
+                        <viewControllerLayoutGuide type="bottom" id="43I-XO-nDY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="asN-Ed-ISa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lfo-L0-GHa">
+                                <rect key="frame" x="193" y="77" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XAG-ke-r3R">
+                                <rect key="frame" x="193" y="162" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="1j4-YW-MeL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxg-gj-QKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4534" y="1052"/>
+        </scene>
         <!--View Controller2-->
         <scene sceneID="8PN-Ao-UKS">
             <objects>
@@ -393,6 +426,7 @@
                         <segue destination="jg4-2U-qTU" kind="relationship" relationship="viewControllers" id="aZl-ak-W4l"/>
                         <segue destination="ru6-LM-kQX" kind="relationship" relationship="viewControllers" id="E0k-g1-bUA"/>
                         <segue destination="sG9-0f-Atp" kind="relationship" relationship="viewControllers" id="Xib-id-Tav"/>
+                        <segue destination="FgZ-46-Ptw" kind="relationship" relationship="viewControllers" id="jcU-75-9Ue"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fpm-51-Vy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
