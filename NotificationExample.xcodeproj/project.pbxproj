@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B18B0C123EA9BBB00F4A3E3 /* ViewController11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */; };
+		9B18B0C323EAA38100F4A3E3 /* ViewController12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */; };
 		9B1CBD6723B4B0AF00B2EAC0 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */; };
 		9B1CBD6923B4B56F00B2EAC0 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CBD6823B4B56F00B2EAC0 /* ViewController3.swift */; };
 		9B225F6D23A9FC1100D92151 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B225F6C23A9FC1100D92151 /* MyCollectionViewCell.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController11.swift; sourceTree = "<group>"; };
+		9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController12.swift; sourceTree = "<group>"; };
 		9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		9B1CBD6823B4B56F00B2EAC0 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		9B225F6C23A9FC1100D92151 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				9B3BF85123D6CB410068EB1E /* ViewController9.swift */,
 				9B3BF85323D6CB500068EB1E /* ViewController10.swift */,
 				9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */,
+				9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */,
 				9B225F6C23A9FC1100D92151 /* MyCollectionViewCell.swift */,
 				9B2685F223A212A0003A2750 /* Main.storyboard */,
 				9B2685F523A212A0003A2750 /* Assets.xcassets */,
@@ -310,6 +313,7 @@
 				9B225FB023AA592900D92151 /* ViewController2.swift in Sources */,
 				9B72189523C45B2900447BD5 /* ViewController4.swift in Sources */,
 				9B26861D23A213D7003A2750 /* ViewController1.swift in Sources */,
+				9B18B0C323EAA38100F4A3E3 /* ViewController12.swift in Sources */,
 				9B1CBD6923B4B56F00B2EAC0 /* ViewController3.swift in Sources */,
 				9B3BF85423D6CB500068EB1E /* ViewController10.swift in Sources */,
 				9B18B0C123EA9BBB00F4A3E3 /* ViewController11.swift in Sources */,
