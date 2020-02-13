@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B1857F023F527ED00F1A7C1 /* ViewController13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1857EF23F527ED00F1A7C1 /* ViewController13.swift */; };
 		9B18B0C123EA9BBB00F4A3E3 /* ViewController11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */; };
 		9B18B0C323EAA38100F4A3E3 /* ViewController12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */; };
 		9B1CBD6723B4B0AF00B2EAC0 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B1857EF23F527ED00F1A7C1 /* ViewController13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController13.swift; sourceTree = "<group>"; };
 		9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController11.swift; sourceTree = "<group>"; };
 		9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController12.swift; sourceTree = "<group>"; };
 		9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				9B3BF85323D6CB500068EB1E /* ViewController10.swift */,
 				9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */,
 				9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */,
+				9B1857EF23F527ED00F1A7C1 /* ViewController13.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				9B3BF85223D6CB410068EB1E /* ViewController9.swift in Sources */,
 				9B3BF84E23D6CAB40068EB1E /* ViewController7.swift in Sources */,
 				9B3BF85023D6CB340068EB1E /* ViewController8.swift in Sources */,
+				9B1857F023F527ED00F1A7C1 /* ViewController13.swift in Sources */,
 				9B2685EF23A212A0003A2750 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
