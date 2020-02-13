@@ -108,6 +108,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B1857EC23F5230B00F1A7C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B2685F223A212A0003A2750 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9B1857ED23F5235600F1A7C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B2685F023A212A0003A2750 /* ViewController.swift */,
+				9B26861C23A213D7003A2750 /* ViewController1.swift */,
+				9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */,
+				9B225FAF23AA592900D92151 /* ViewController2.swift */,
+				9B1CBD6823B4B56F00B2EAC0 /* ViewController3.swift */,
+				9B72189423C45B2900447BD5 /* ViewController4.swift */,
+				9B3BF84923D6CA990068EB1E /* ViewController5.swift */,
+				9B3BF84B23D6CAA70068EB1E /* ViewController6.swift */,
+				9B3BF84D23D6CAB40068EB1E /* ViewController7.swift */,
+				9B3BF84F23D6CB340068EB1E /* ViewController8.swift */,
+				9B3BF85123D6CB410068EB1E /* ViewController9.swift */,
+				9B3BF85323D6CB500068EB1E /* ViewController10.swift */,
+				9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */,
+				9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B1857EE23F523A200F1A7C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B23483123E04D0A00C48853 /* SplashViewController.swift */,
+				9B225F6C23A9FC1100D92151 /* MyCollectionViewCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9B2685E223A2129F003A2750 = {
 			isa = PBXGroup;
 			children = (
@@ -133,24 +171,10 @@
 			children = (
 				9B2685EE23A212A0003A2750 /* AppDelegate.swift */,
 				9B225F6E23AA00AF00D92151 /* download.png */,
-				9B2685F023A212A0003A2750 /* ViewController.swift */,
-				9B23483123E04D0A00C48853 /* SplashViewController.swift */,
 				9B3BF85523D6CCC40068EB1E /* chicken-256.png */,
-				9B26861C23A213D7003A2750 /* ViewController1.swift */,
-				9B1CBD6623B4B0AF00B2EAC0 /* download.jpeg */,
-				9B225FAF23AA592900D92151 /* ViewController2.swift */,
-				9B1CBD6823B4B56F00B2EAC0 /* ViewController3.swift */,
-				9B72189423C45B2900447BD5 /* ViewController4.swift */,
-				9B3BF84923D6CA990068EB1E /* ViewController5.swift */,
-				9B3BF84B23D6CAA70068EB1E /* ViewController6.swift */,
-				9B3BF84D23D6CAB40068EB1E /* ViewController7.swift */,
-				9B3BF84F23D6CB340068EB1E /* ViewController8.swift */,
-				9B3BF85123D6CB410068EB1E /* ViewController9.swift */,
-				9B3BF85323D6CB500068EB1E /* ViewController10.swift */,
-				9B18B0C023EA9BBB00F4A3E3 /* ViewController11.swift */,
-				9B18B0C223EAA38100F4A3E3 /* ViewController12.swift */,
-				9B225F6C23A9FC1100D92151 /* MyCollectionViewCell.swift */,
-				9B2685F223A212A0003A2750 /* Main.storyboard */,
+				9B1857EE23F523A200F1A7C1 /* Model */,
+				9B1857ED23F5235600F1A7C1 /* Controller */,
+				9B1857EC23F5230B00F1A7C1 /* View */,
 				9B2685F523A212A0003A2750 /* Assets.xcassets */,
 				9B2685F723A212A0003A2750 /* LaunchScreen.storyboard */,
 				9B2685FA23A212A0003A2750 /* Info.plist */,

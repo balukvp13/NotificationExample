@@ -14,6 +14,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
 
     
     @IBOutlet weak var mTableView: UITableView!
+    
     @IBOutlet weak var showLabelNoti: UILabel!
     
     let anmial:[String] = ["Rat" , "Cat" , "Lion" , "Cat" , "Lion" ,"Rat" , "Cat" , "Lion" , "Cat" , "Lion" ,"Rat" , "Cat" , "Lion" , "Cat" , "Lion"]
@@ -67,12 +68,17 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
           }
+    
+    
 
     public func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        return anmial.count
+        
+        if (section == 0) {
+            return anmial.count
+        }
+        return anmial1.count
+        
         
     }
     
